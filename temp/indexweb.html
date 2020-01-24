@@ -1,0 +1,66 @@
+{% load static %}
+{%static "images1" as baseurl %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V20</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images1/icons/favicon.ico '%}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/bootstrap/css/bootstrap.min.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts1/font-awesome-4.7.0/css/font-awesome.min.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts1/Linearicons-Free-v1.0.0/icon-font.min.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/animate/animate.css'%}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/css-hamburgers/hamburgers.min.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/animsition/css/animsition.min.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/select2/select2.min.css'%}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor1/daterangepicker/daterangepicker.css'%}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'css1/util.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css1/main.css'%}">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-b-160 p-t-50">
+                {%block content %}
+
+                {%endblock %}
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+	
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/jquery/jquery-3.2.1.min'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/animsition/js/animsition.min'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/bootstrap/js/popper'%}"></script>
+	<script src="{% static 'vendor1/bootstrap/js/bootstrap.min'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/select2/select2.min'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/daterangepicker/moment.min'%}"></script>
+	<script src="{% static 'vendor1/daterangepicker/daterangepicker'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'vendor1/countdowntime/countdowntime'%}"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'js1/main'%}"></script>
+
+</body>
+</html>
