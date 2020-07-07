@@ -21,8 +21,9 @@ OpenCv
 
 Hardware:
 
-Node Mcu
-Py Camera
+Node MCU
+LCD module
+Web Camera
 
 ##################################### *
 #################################### *
