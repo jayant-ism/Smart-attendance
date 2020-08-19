@@ -24,6 +24,7 @@ Hardware:
 Node MCU
 LCD module
 Web Camera
+Raspberry Pi
 
 ##################################### *
 #################################### *
